@@ -49,3 +49,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+- name: Setup Pages
+  id: pages
+  uses: actions/configure-pages@v5
+  with:
+    enablement: true
